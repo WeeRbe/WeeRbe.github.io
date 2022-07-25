@@ -1,0 +1,878 @@
+@font-face {
+    font-family: 'Post No Bills Jaffna';
+    src: url('../fonts/PostNoBillsJaffna-Bold.eot');
+    src: local('☺'), url('../fonts/PostNoBillsJaffna-Bold.woff') format('woff'), url('../fonts/PostNoBillsJaffna-Bold.ttf') format('truetype'), url('../fonts/PostNoBillsJaffna-Bold.svg') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/*---Обнуление---*/
+
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;}
+input, button,textarea {font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit:font-weight:inherit:}
+
+/*---/Обнуление---*/
+
+body{
+    font-family: 'PT Sans', sans-serif;
+    cursor:context-menu;
+}
+/*---Header---TOP---*/
+
+.header__top{
+    background: #000;
+    font-size: 12px;
+}
+
+.container{
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.header__wrapper_top{
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__top_info{
+    background-image: url('../img/Vector.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    color:#969696;
+    padding-left: 30px;
+
+}
+
+.header__top_info p{
+    width: 385px;
+    text-align: justify;
+    text-align-last: justify;
+}
+
+.nav__top{
+    color:#969696;
+    padding-left: 10px;
+    transition: all .6s;
+}
+
+.nav__top:hover{
+    color: #fff;
+}
+
+/*--/TOP---*/
+
+
+
+/*---Header---SECOND---*/
+
+.header__second{
+    background: #0F0F0F;
+    color: #fff;
+}
+
+.header__wrapper_second{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo_second{
+    font-family: 'Post No Bills Jaffna';
+    font-size: 36px;
+}
+
+.header__logo_second a {
+    color: #fff;
+}
+
+.nav__second{
+    width: 515px;
+    font-size: 14px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__second a{
+    color: #969696;
+    transition: all .6s;
+    text-transform: uppercase;
+}
+
+.nav__second a:hover{
+    color: #fff;
+}
+
+
+/*---Header---FIRST---*/
+
+.header__first{
+    background-image:url('../img/Rectangle%203.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.header__wrapper_first{
+    height: 810px;
+}
+
+.logo__first_content{
+    padding-top: 160px;
+    padding-left: 395px;
+    width: 320px;
+}
+
+.logo__first{
+    border: 4px solid #fff;
+    padding: 100px 60px 90px 60px;
+    width: 320px;
+    height: 320px;
+}
+
+.logo__first h1{
+    font-family: 'Post No Bills Jaffna';
+    font-size: 64px;
+    text-align: center;
+    border-bottom: 2px solid #fff;
+}
+
+.logo__first h2{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top: 14px;
+}
+
+.logo__first_text{
+    margin: 80px auto 0;
+    font-size: 16px;
+    width: 730px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 24px;
+}
+
+
+/*---------------------------------------------------------*/
+.works{
+    color: #fff;
+    margin: 0 auto;
+}
+
+.works__wrapper{
+    display: flex;
+}
+
+.works__left{
+    background-color: #000;
+    width: 54.16vw;
+    padding-bottom: 90px
+}
+
+.works__title{
+    font-size: 36px;
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    line-height: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 90px;
+}
+
+.works__title:after{
+    content: "";
+    display: block;
+    width: 120px;
+    max-width: 100%;
+    height: 2px;
+    background-color: #fff;
+    margin: 50px auto 50px auto;
+
+}
+
+.watches{
+    background-image: url('../img/Rectangle%209.png');
+    padding: 55px 22px 56px 23px;
+    margin-bottom: 25px
+}
+
+.watches:last-child {
+    margin-right: 0px;
+}
+
+.works__content{
+    display: flex;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.content__watches{
+    margin-right: 50px
+}
+
+.content__watches:last-child{
+    margin-right: 0px;
+}
+
+.watches{
+    width: 100%;
+}
+
+.content__title{
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.watches__pay{
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.works__rigt{
+    background-image: url('../img/Rectangle%208.png');
+    background-repeat: no-repeat;
+    width: 45.84vw;
+}
+
+.rigt__title{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 484px;
+}
+
+.rigt__title:after{
+    content: "";
+    display: block;
+    width: 120px;
+    max-width: 100%;
+    height: 2px;
+    background-color: #fff;
+    margin: 30px auto 30px auto;
+}
+
+
+.btn__works{
+    display: block;
+    border: 1px solid #fff;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 12px 28px;
+    margin: 0 auto 41px auto;
+    width: 138px;
+    color: #fff;
+    transition: all .6s;
+}
+
+.btn__works:hover{
+    background-color: #000;
+}
+
+
+/*---------------------------------------------------*/
+
+.main{
+    display: flex;
+    color: #fff;
+    width: 1920px;
+    margin: 0 auto;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    height: 600px;
+}
+
+.main__img{
+    width: 45.83%;
+}
+
+.main__collection{
+    background-color: #000;
+    width: 54.17%;
+}
+
+.main__logo{
+    font-size: 36px;
+    font-family: 'Playfair Display';
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 100px;
+}
+
+.main__logo:after{
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background-color: #fff;
+    margin: 40px auto 0 auto;
+    box-sizing: border-box;
+}
+
+.main__collection p{
+    width: 471px;
+    margin: 40px auto 61px auto;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.main__btn{
+    display: block;
+    border: 1px solid #fff;
+    padding: 12px 28px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    transition: all .6s;
+    margin: 30px auto 0 auto;
+    width: 311px;
+}
+
+.main__btn a{
+    font-size: 18px;
+    color: #fff;
+}
+
+.main__btn:hover{
+    background-color: #242424;
+}
+
+/*-----------------------------------------------*/
+
+.goods{
+    background-color: #000;
+    padding-bottom: 110px;
+}
+
+
+.goods__logo{
+    font-size: 36px;
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.goods__logo:after{
+    content: "";
+    display: block;
+    width: 120px;
+    max-width: 100%;
+    height: 2px;
+    background-color: #fff;
+    margin: 40px auto 81px auto;
+    box-sizing: border-box;
+}
+
+.goods__all-watches{
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+}
+
+.goods__pay{
+    margin-bottom: 40px;
+}
+
+.goods__watches{
+    margin-right: 23px;
+    margin-bottom: 40px;
+}
+
+.goods__watches:nth-child(4){
+    margin-right: 0px;
+}
+/*----------------------------------------------*/
+
+.main__brands{
+    background-color: #0F0F0F;
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    color: #fff;
+    height: 361px;
+}
+
+.brands__title{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 48px;
+    padding-top: 60px;
+}
+
+.brands__title:after{
+    content: "";
+    display: block;
+    width: 120px;
+    max-width: 100%;
+    height: 2px;
+    background-color: #fff;
+    margin: 40px auto;
+
+}
+
+.content__brands{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*----------------------------------------------*/
+
+.footer{
+    color: #fff;
+    background-image: url('../img/Rectangle%2011.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.wrapper__footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__info{
+    margin-right: 30px;
+}
+
+.footer__title{
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.footer__text{
+    font-size: 14px;
+    line-height: 150%;
+    width: 350px;
+}
+
+.footer__categories{
+    margin-right: 90px;
+    color: #fff;
+}
+
+.footer__nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer__nav_info{
+    background-color: #000;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    transition: all .6s;
+}
+
+.footer__nav_info:hover{
+    background-color: #242424;
+}
+
+.nav__info{
+    color: #fff;
+}
+
+
+
+.footer__text_newsletter{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    margin-bottom: 37px;
+}
+
+.input__mail{
+
+    height: 42px;
+    width: 210px;
+    padding-left: 15px;
+    font-size: 14px;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+::placeholder{
+    color: #969696;
+}
+
+.footer__btn{
+    height: 42px;
+    background-color: #0F0F0F;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #fff;
+    transition: all .6s
+}
+
+.footer__btn:hover{
+    background-color: #242424;
+}
+
+/*----------------------------------------------*/
+
+.last-line{
+    background-color: #0F0F0F;
+    color: lightgray;
+    font-size: 12px;
+    height: 50px;
+}
+
+.wrapper__last-line{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 17px;
+}
+
+.wrapper__last-line a{
+    color: lightgray;
+    text-decoration: underline;
+}
+
+.wrapper__last-line a:hover{
+    color: #fff;
+}
+
+
+/*-------------------------------------------------------*/
+
+@media screen and (max-width: 1200px){
+    .container{
+        width: 960px;
+    }
+    .works__content {
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+    }
+
+    .header__wrapper_top{
+        text-align: center;
+        width: 975px;
+        padding: 0 10px;
+    }
+    .header__wrapper_second{
+        width: 975px;
+        padding: 0 10px;
+    }
+    .header__wrapper_first{
+        width: 975px;
+    }
+    .logo__first_content{
+        padding-left: 338px;
+    }
+    .goods__all-watches{
+        justify-content: center;
+    }
+    .goods__watches:nth-child(4){
+    margin-right: 23px;
+    }
+    .img__brands img{
+        width: 244px;
+    }
+    .footer__info{
+        padding-left: 15px;
+    }
+    .wrapper__last-line{
+        margin: 0 15px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .container{
+        width: 720px;
+    }
+
+    .header__wrapper_top{
+        width: 720px;
+    }
+    .nav__second{
+        width: 450px;
+    }
+    .header__wrapper_second{
+        width: 720px;
+        padding: 0 10px;
+    }
+    .header__wrapper_first{
+        width: 720px;
+    }
+    .logo__first_content{
+        padding-left: 205px;
+    }
+    .logo__first_text{
+        width: 600px;
+    }
+
+    .works__wrapper{
+        display: contents;
+    }
+    .works__left{
+        width: 100%;
+        height: 730px;
+    }
+    .works__rigt{
+        background-size: cover;
+        width: 100%;
+        height: 730px;
+    }
+    .works__title{
+        margin-top: 0;
+        padding-top: 93px;
+    }
+    .rigt__title{
+        margin: 0;
+        padding-top: 484px;
+
+    }
+    .btn__works{
+        margin-bottom: 0;
+    }
+
+    .main__collection p{
+        width: 380px;
+    }
+    .content__watches:last-child{
+        margin-right: 23px;
+    }
+    .img__brands img{
+        width: 180px;
+    }
+    .footer__text{
+        width: 240px;
+    }
+
+    .footer__categories {
+    margin-right: 35px;
+    }
+
+    .footer__nav {
+        width: 190px;
+    }
+    .goods__watches:nth-child(2n) {
+        margin-right: 0px;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        width: 540px;
+    }
+
+    .header__wrapper_top {
+    width: 100%;
+}
+    .header__top_info p{
+        width: 318px;
+    }
+    .header__top_info{
+        padding-left: 20px;
+    }
+    .header__wrapper_second{
+        width: 100%;
+    }
+    .nav__second{
+        width: 365px;
+    }
+    .header__wrapper_first {
+    width: 540px;
+}
+    .logo__first_content{
+            padding-left: 110px;
+    }
+    .logo__first_text{
+            width: 540px;
+    }
+    .content__watches {
+    margin-right: 25px;
+}
+    .content__watches:last-child{
+        margin-right: 0;
+    }
+    .main__img{
+        width: 0;
+    }
+    .main__collection{
+        background-image: url('../img/Rectangle%2010.png');
+        background-position: center;
+        width: 100%;
+    }
+    .goods__watches {
+    width: 160px;
+}
+    .goods__watches:nth-child(2n){
+        margin-right: 23px;
+    }
+    .goods__watches:nth-child(3n){
+        margin-right: 0;
+    }
+    .content__brands img{
+        width: 130px;
+    }
+    .footer__info {
+    padding-left: 0px;
+}
+    .footer__info {
+    margin-right: 15px;
+}
+    .footer__text {
+    width: 175px;
+        font-size: 12px;
+}
+    .footer__categories {
+    margin-right: 10px;
+}
+    .footer__nav {
+    width: 170px;
+}
+    .input__mail{
+        width: 180px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .container{
+        width: 320px;
+    }
+    .header__wrapper_top {
+    width: 100%;
+}
+    .header__top_info p {
+    width: 165px;
+}
+    .header__wrapper_second {
+    width: 100%;
+}
+    .nav__second {
+    width: 230px;
+    flex-wrap: wrap;
+    font-size: 11px;
+    margin-left: 20px;
+}
+    .logo__first_content {
+    padding-left: 10px;
+}
+    .logo__first{
+            width: 295px;
+        height: 300px;
+    }
+    .logo__first h1{
+        font-size: 59px;
+    }
+    .logo__first h2{
+            font-size: 20px;
+    }
+    .header__wrapper_first {
+    width: 320px;
+}
+    .logo__first_text {
+        width: 300px;
+        font-size: 12px;
+}
+    .content__watches {
+    margin-right: 15px;
+}
+    .main__collection p {
+    width: 295px;
+        font-size: 12px;
+}
+    .content__goods{
+        width: 320px;
+    }
+    .goods__all-watches{
+        width: 320px;
+        margin: 0;
+    }
+    .goods__logo{
+        width: 315px;
+    }
+    .goods__watches{
+        width: 100px;
+        margin: 0;
+    }
+    .goods__watches:nth-child(n){
+        margin: 3px;
+    }
+    .brands__title{
+        font-size: 30px;
+    }
+    .brands__title:after {
+    content: "";
+    display: block;
+    width: 100px;
+    max-width: 100%;
+    height: 2px;
+    background-color: #fff;
+    margin: 35px auto;
+}
+    .content__brands {
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 0 10px;
+}
+    .wrapper__footer{
+        display: contents;
+    }
+    .footer{
+        padding-bottom: 32px;
+    }
+    .footer__title{
+        margin-top: 0;
+        margin-bottom: 10px;
+        padding-top: 10px;
+    }
+    .footer__text{
+        margin-left: 7px;
+        width: 100%;
+        font-size: 8px;
+    }
+    .footer__nav_info{
+        margin-bottom: 7px;
+    }
+    .footer__nav{
+        width: 100%;
+        display: flex;
+
+    }
+    .footer__text_newsletter{
+        line-height: 120%;
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+
+}
